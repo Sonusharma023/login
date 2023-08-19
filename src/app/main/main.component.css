@@ -1,0 +1,118 @@
+section {
+    width: 100%;
+    max-width: 1440px;
+    height: calc(100vh - 150px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 12px;
+}
+@media screen and (max-width:568px) {
+    section{
+    height: calc(100vh - 75px);
+    }
+}
+
+section form {
+    padding: 18px 12px;
+    width: 100%;
+    max-width: 486px;
+    height: fit-content;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+section form .logo {
+    width: 100%;
+    max-width: 110px;
+    margin: 0 auto;
+}
+
+form .input-field {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-field label {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+form .show-password {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 18px;
+    justify-content: end;
+    padding: 10px 0;
+}
+
+.show-password input {
+    transform: scale(1.3);
+}
+
+form .remember-me {
+    margin-top: 35px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 18px;
+}
+
+.remember-me input {
+    transform: scale(1.1);
+}
+
+form .notRobot {
+    margin-top: 21px;
+    margin-bottom: 15px;
+}
+
+.notRobot {
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.notRobot input {
+    transform: scale(1.5);
+}
+
+form .submit {
+    width: 100%;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 17px;
+    background-color: #059DB4;
+    padding: 11px 0;
+    border-radius: 9px;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+
+  form .Forgot {
+    color: #0266c2;
+    font-size: 18px;
+}
